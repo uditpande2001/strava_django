@@ -16,8 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from process_data.views import get_all_activities
+from process_data.views import get_all_activities, get_activities_by_date,get_activities_by_activity_name
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('activities', get_all_activities, name="activities"),
+    path('activities_by_date',get_activities_by_date,name="get_activites_by_date"),
+    path('get_activities_by_activity_name',get_activities_by_activity_name,name="get_activities_by_activity_name")
 ]

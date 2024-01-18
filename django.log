@@ -24,3 +24,43 @@ Not Found: /
 Watching for file changes with StatReloader
 Not Found: /
 Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Retrieved all activities successfully.
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Retrieved all activities successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully
+Not Found: /
+Error retrieving all activities: Unsupported lookup 'extract' for TextField or join on the field not permitted, perhaps you meant exact or iexact?
+Internal Server Error: /get_activities_by_activity_name
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully
