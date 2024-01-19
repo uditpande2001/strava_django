@@ -40,8 +40,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'process_data',
+
+
 ]
+
+EXTERNAL_APPS = [
+    'process_data',
+
+    # swagger-ui->
+    'rest_framework',
+    'drf_yasg',
+]
+
+INSTALLED_APPS = INSTALLED_APPS + EXTERNAL_APPS
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

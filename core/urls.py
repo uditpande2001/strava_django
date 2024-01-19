@@ -15,11 +15,48 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from process_data.views import get_all_activities, get_activities_by_date,get_activities_by_activity_name
+from django.urls import path,re_path,include
+
+# external imported apps ->
+# Swagger documentation
+from rest_framework import permissions
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+
+#views
+from process_data.views import get_all_activities, get_activities_by_date, get_activities_by_activity_name
+
+schema_view = get_schema_view(
+    openapi.Info(
+        title="Strava-mod APIs",
+        default_version='v1',
+        description="APIs to fetch processed strava activities data",
+        terms_of_service="https://yourapp.com/terms/",
+        contact=openapi.Contact(email="uditpande2001@gmail.com"),
+        license=openapi.License(name="Your License"),
+    ),
+    public=True,
+    permission_classes=(permissions.AllowAny,),
+)
+
+
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('activities', get_all_activities, name="activities"),
+#     path('activities_by_date', get_activities_by_date, name="get_activites_by_date"),
+#     path('get_activities_by_activity_name', get_activities_by_activity_name, name="get_activities_by_activity_name")
+# ]
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('activities', get_all_activities, name="activities"),
-    path('activities_by_date',get_activities_by_date,name="get_activites_by_date"),
-    path('get_activities_by_activity_name',get_activities_by_activity_name,name="get_activities_by_activity_name")
+    path('all_activities/', get_all_activities, name="all_activities"),
+    path('activities_by_date/', get_activities_by_date, name="get_activities_by_date"),
+    path('activities_by_activity_name/', get_activities_by_activity_name, name="get_activities_by_activity_name"),
+
+    # Swagger documentation
+    path('swagger<str:format>', schema_view.without_ui(cache_timeout=0), name='schema-json'),
+    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]
+
+

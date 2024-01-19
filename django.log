@@ -64,3 +64,161 @@ Retrieved all activities successfully
 D:\django_strava\process_data\views.py changed, reloading.
 Watching for file changes with StatReloader
 Retrieved all activities successfully
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully.
+Retrieved all activities successfully
+Retrieved all activities successfully
+Watching for file changes with StatReloader
+Not Found: /
+D:\django_strava\manage.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\manage.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Retrieved all activities successfully.
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully.
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /activities
+Internal Server Error: /activities_by_activity_name/
+Traceback (most recent call last):
+  File "D:\django_strava\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\django_strava\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django_strava\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+Retrieved all activities successfully.
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /activities_by_activity_name/
+Traceback (most recent call last):
+  File "D:\django_strava\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\django_strava\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django_strava\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Retrieved all activities successfully
+Retrieved all activities successfully
+Retrieved all activities successfully
+Retrieved all activities successfully
+Retrieved all activities successfully
+Retrieved all activities successfully
+Retrieved all activities successfully
+Retrieved all activities successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully
+Retrieved all activities successfully
+Not Found: /activities_by_activity_name/
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Retrieved all activities successfully
+Not Found: /activities_by_activity_name/
+Not Found: /activities_by_activity_name/
+Retrieved all activities successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully.
+Retrieved all activities successfully
+Retrieved activities successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved activities successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /activities_by_date/
+Error retrieving all activities: ['“2022-09-26 08:57:13.000” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+Error retrieving all activities: ['“2022-09-26 ” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully
+Retrieved all activities successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully.
