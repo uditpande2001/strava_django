@@ -222,3 +222,144 @@ Watching for file changes with StatReloader
 D:\django_strava\process_data\views.py changed, reloading.
 Watching for file changes with StatReloader
 Retrieved all activities successfully.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Retrieved activities successfully
+Retrieved all activities successfully.
+Retrieved all activities successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Error retrieving all activities: MultiValueDict.get() missing 1 required positional argument: 'key'
+Internal Server Error: /activities_by_date/
+Error retrieving all activities: MultiValueDict.get() missing 1 required positional argument: 'key'
+Internal Server Error: /activities_by_date/
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Error retrieving all activities: ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+Error retrieving all activities: ['“2021-02-01 08:57:45” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+Error retrieving all activities: ['“2021-02-01 ” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Error retrieving activities: ['“2021-02-01 08:57:45.000” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+Error retrieving activities: ['“2021-02-01 ” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+Error retrieving activities: ['“2021-02-01 ” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+Error retrieving activities: ["“'2021-02-01'” value has an invalid date format. It must be in YYYY-MM-DD format."]
+Internal Server Error: /activities_by_date/
+Error retrieving activities: ["“'2021-02-01'” value has an invalid date format. It must be in YYYY-MM-DD format."]
+Internal Server Error: /activities_by_date/
+Retrieved activities successfully
+Retrieved activities for date: 2021-02-01
+Retrieved activities for date: 2021-02-01
+Retrieved activities for date: 2020-03-16
+Retrieved activities for date: 2020-12-16
+Retrieved activities for date: 2020-12-23
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /activities_by_date/
+Traceback (most recent call last):
+  File "D:\django_strava\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\django_strava\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django_strava\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\django_strava\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+Error retrieving activities: ['“fdasf” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+Retrieved activities for date: 2020-12-23
+Retrieved activities for date: 2020-12-24
+Not Found: /activities_by_date/
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved all activities successfully.
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Retrieved all activities successfully.
+Retrieved activities successfully
+Retrieved activities for date: 2023-05-12
+Error retrieving activities: ['“2023-05-122” value has an invalid date format. It must be in YYYY-MM-DD format.']
+Internal Server Error: /activities_by_date/
+Error retrieving activities: ['“2023-05-0” value has the correct format (YYYY-MM-DD) but it is an invalid date.']
+Internal Server Error: /activities_by_date/
+Not Found: /activities_by_date/
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved activity heart rate data successfully
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Error retrieving activities: Unsupported lookup 'icontains' for OneToOneField or join on the field not permitted.
+Internal Server Error: /activity_hr_data/
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django_strava\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Error retrieving activities: Unsupported lookup 'icontains' for OneToOneField or join on the field not permitted.
+Internal Server Error: /activity_hr_data/
+D:\django_strava\process_data\views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved activity heart rate data successfully
+Watching for file changes with StatReloader
+Retrieved activity heart rate data successfully
+Retrieved activity heart rate data successfully
+Retrieved activity heart rate data successfully
+Watching for file changes with StatReloader
